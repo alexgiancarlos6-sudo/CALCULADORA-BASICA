@@ -1,9 +1,3 @@
-# CALCULADORA-BASICA
-Una calculadora simple y basica 
-Aquí tienes un código de Python para una calculadora básica. Este programa permite al usuario realizar sumas, restas, multiplicaciones y divisiones, e incluye manejo de errores básicos (como evitar que el programa falle si intentas dividir por cero o si ingresas letras en lugar de números).
-
-Código de la Calculadora en Python
-Python
 def sumar(x, y):
     return x + y
 
@@ -56,5 +50,7 @@ def calculadora():
                 print(f"Resultado: {num1} / {num2} = {dividir(num1, num2)}")
         else:
             print("Opción no válida. Por favor, selecciona 1, 2, 3 o 4.")
-            2+2
-            
+
+# Ejecutamos la función principal
+if __name__ == "__main__":
+    calculadora()
